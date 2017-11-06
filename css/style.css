@@ -23,6 +23,7 @@
 	.btn-red {
 		background: #d51e08;
 		color: #fff;
+		transition: background .3s;
 	}
 
 	.btn-red:hover {
@@ -91,7 +92,34 @@
 		width: 100%;
 		height: 100%;
 		background-size: cover !important;
-		background-position: center center;
+		background-position: center center !important;
+	}
+
+	.menu-carousel .carousel-caption {
+		left: 0;
+		top: 170px;
+	}
+
+	.menu-carousel .carousel-caption h1 {
+		font-size: 48px;
+		font-weight: bold;
+	}
+
+	.menu-carousel .carousel-caption h3 {
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+
+	.menu-carousel .carousel-caption .btn-red {
+		padding: 20px 30px;
+		border-radius: 7px;
+		color: #fff;
+		text-decoration: none;
+		font-size: 24px;
+	}
+
+	.menu-carousel .container {
+		position: relative;
 	}
 
 /* Header Style End */
@@ -104,8 +132,38 @@
 
 }
 
+@media only screen and (max-width : 1180px) {
+
+	.menu-carousel .carousel-caption {
+		left: 20%;
+	}
+
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+	.menu-carousel .carousel-caption {
+		left: 20%;
+	}
+
+	.menu-carousel .carousel-caption h1 {
+		font-size: 38px;
+		font-weight: bold;
+	}
+
+	.menu-carousel .carousel-caption h3 {
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+
+	.menu-carousel .carousel-caption .btn-red {
+		padding: 15px 20px;
+		border-radius: 7px;
+		color: #fff;
+		text-decoration: none;
+		font-size: 16px;
+	}
 
 }
 
