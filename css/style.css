@@ -56,6 +56,7 @@
 		background: #d51e08;
 		border-radius: 5px;
 		padding: 12px;
+		margin-left: 10px
 	}
 
 	.menu-top .navbar-default .navbar-nav > li > a.btn-red:hover {
@@ -79,13 +80,27 @@
 		padding-left: 0;
 	}
 
+	.menu-carousel .item {
+		min-height: 600px;
+	}
+
+	.menu-carousel .bgslide {
+		position: absolute;
+		top: 0;
+		height: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover !important;
+		background-position: center center;
+	}
+
 /* Header Style End */
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
 	.menu-top .navbar-nav { float: none !important }
-	.menu-top .navbar-default .navbar-nav > li > a.btn-red { margin-left: 8px }
+	.menu-top .navbar-default .navbar-nav > li > a.btn-red { margin-left: 10px }
 
 }
 
