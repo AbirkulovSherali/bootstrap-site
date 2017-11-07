@@ -218,6 +218,60 @@
 
 /* Header Style End */
 
+.main-slogan {
+	color: #000;
+	text-align: center;
+	padding: 45px 0;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 3px solid #dadada;
+}
+
+.main-slogan h1 {
+	font-size: 30px;
+	margin: 0;
+}
+
+/* Sidebar Begin */
+
+	.sidebar {
+		padding: 50px 0 70px;
+		border-right: 3px solid #dadada;
+	}
+
+	.widget {
+		border-bottom: 3px solid #dadada;
+		margin-bottom: 30px;
+		padding-bottom: 15px;
+	}
+
+	.widget h3,
+	.content h3 {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+
+	.widget ul {
+		list-style: none;
+		padding-left: 20px;
+	}
+
+	.widget ul li a {
+		color: #000;
+		font-size: 16px;
+		line-height: 28px;
+		display: block;
+	}
+
+	.widget ul li.more a{
+		color: #358acd;
+	}
+
+	.content {
+		padding: 50px 0 70px;
+	}
+
+/* Sidebar End */
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -281,6 +335,12 @@
 		font-size: 16px;
 	}
 
+	.sidebar {
+		padding-top: 0;
+		padding-bottom: 0;
+		border-right: none;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -328,6 +388,15 @@
 
 	.main-menu-bg .search {
 		display: none;
+	}
+
+}
+
+@media only screen and (max-width : 540px) {
+
+	.sidebar .col-xs-6 {
+		text-align: center;
+		width: 100%;
 	}
 
 }
