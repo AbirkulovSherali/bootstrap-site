@@ -19,4 +19,6 @@ $(function(){
         $(".sidebar .banner").css("max-width", carouselCaptionWidth);
     });
 
+    $("#elastislide").elastislide();
+
 })
